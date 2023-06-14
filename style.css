@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: auto;
+}
+
+body {
+background: rgb(255,255,255);
+}
+main {
+   margin: 0rem 8rem;
+}
+article{
+    margin: 0rem 15rem;
+}
+
+.nav .h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.discover{
+    text-align: center;
+    margin-top: 1rem;
+}
+.discover h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 1.5rem;
+}
+.supplements {
+    background-color: rgb(251,251,251);
+    margin-top: 3rem;
+    
+}
+.supplements h1 {
+    color: rgb(66,139,202);
+    text-align: center;
+    padding: 2px;
+}
+.i {
+    background-color: rgb(251,251,251);
+    padding: 4px;
+    text-align: center;
+}
+article h1 {
+    /* needs a CSS code here...line 107 */
+}
+
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    max-width: 275px;
+}
+
+.making {
+    margin: 2rem 12.2rem;
+    width: 50%;
+    border: 3px dashed red;
+    padding: 2rem;
+    background-color: bisque;
+}
+.making p {
+    font-size: 1.5rem;
+    color: rgb(95,136,83);;
+}
