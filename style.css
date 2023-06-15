@@ -192,7 +192,6 @@ footer {
 
     main {
         margin: 1rem 1rem;
-        border: 2px solid red;
     }
     .nav .img img {
        display: none;
@@ -216,7 +215,6 @@ footer {
         font-size: 1rem;
     }
     .discover{
-        border: 2px solid red;
         text-align: center;
         margin-top: 1rem;
     }
@@ -228,7 +226,6 @@ footer {
   }
 
   .supplements {
-    border: 2px solid red;
     background-color: rgb(247,236,221);
     /* margin-top: 3rem; */
     margin: 1rem 1rem;
@@ -247,7 +244,6 @@ footer {
 
 
   article{
-    border: 2px solid red;
     /* margin: 0rem 1rem; */
     /* width: 100%; */
     margin: 1rem 1rem;
@@ -267,7 +263,6 @@ article p {
 }
 
 .making {
-    border: 2px solid red;
     margin: 1rem 1rem;
     width: 90%;
     border-radius: 5px;
@@ -287,7 +282,6 @@ article p {
 }
 footer {
     margin: 1rem 1rem;
-    border: 2px solid red;
 }
 
 footer img {
