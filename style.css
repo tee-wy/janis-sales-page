@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@900&display=swap');
 
 * {
+    box-sizing: border-box;
+
     padding: 0;
     margin: 0;
-    overflow-x: auto;
+   
 }
 
 body {
@@ -70,6 +72,9 @@ article p {
     padding: 4px;
     text-align: center;
 }
+article {
+    
+}
 article h1 {
     /* needs a CSS code here...line 107 */
 }
@@ -84,6 +89,7 @@ article img {
 }
 
 .making {
+    
     margin: 2rem 7rem;
     width: 65%;
     border-radius: 5px;
@@ -171,3 +177,110 @@ footer {
     width: 90%;
     margin: 10px auto 0;
   }
+
+
+
+
+  @media screen and (max-width: 700px) {
+
+    main {
+        margin: 1rem 1rem;
+        border: 2px solid red;
+    }
+    .nav .img img {
+       display: none;
+    }
+    main .nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav .h1 {
+        width: 100%;
+    }
+
+    .nav .h1 h3 {
+        font-size: 1rem;
+    }
+    .nav h3{
+        text-align: center;
+        font-family: Lato, Gotham, "Helvetica Neue", Arial, "sans-serif";
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
+    .discover{
+        border: 2px solid red;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .discover h1 {
+        margin: 1rem 0rem;
+    font-family: 'Geologica', sans-serif;   
+     font-size: 1.6rem;
+       
+  }
+
+  .supplements {
+    border: 2px solid red;
+    background-color: rgb(247,236,221);
+    /* margin-top: 3rem; */
+    margin: 1rem 1rem;
+    padding: 5px;
+}
+.supplements h1 {
+    color: rgb(66,139,202);
+    text-align: center;
+    padding: 5px;
+    /* background-color: rgb(247,236,221); */
+}
+
+
+
+
+
+
+  article{
+    border: 2px solid red;
+    /* margin: 0rem 1rem; */
+    /* width: 100%; */
+    margin: 1rem 1rem;
+}
+
+article p {
+    font-size: 1rem;
+    font-family: Lato, Gotham, "Helvetica Neue", Arial, "sans-serif";;
+}
+
+.making {
+    border: 2px solid red;
+    margin: 1rem 1rem;
+    width: 90%;
+    border-radius: 5px;
+    border: 3px dashed red;
+    padding: 1rem;
+    background-color: rgb(247,236,221);
+}
+.making p i {
+    margin-right: 1rem;
+}
+.making p  {
+    margin-bottom: 1rem;
+}
+.making p {
+    font-size: 1rem;
+    color: rgb(10,59,108);
+}
+footer {
+    margin: 1rem 1rem;
+    border: 2px solid red;
+}
+
+footer img {
+    display: none;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    width: 100%;
+    height: auto;
+    max-width: 175px;
+}
+}
