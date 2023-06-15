@@ -84,15 +84,22 @@ article img {
 }
 
 .making {
-    margin: 2rem 12.2rem;
-    width: 50%;
+    margin: 2rem 7rem;
+    width: 65%;
+    border-radius: 5px;
     border: 3px dashed red;
     padding: 2rem;
-    background-color: bisque;
+    background-color: rgb(247,236,221);
+}
+.making p i {
+    margin-right: 2rem;
+}
+.making p  {
+    margin-bottom: 2rem;
 }
 .making p {
     font-size: 1.5rem;
-    color: rgb(95,136,83);;
+    color: rgb(10,59,108);
 }
 .guarantee h3 {
     text-align: center;
@@ -101,3 +108,66 @@ article img {
 .guarantee img {
     margin-top: 3rem;
 }
+
+
+
+footer {
+    background-color: black;
+    padding: 20px;
+    /* margin: 0rem 19rem;  */
+     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer div {
+    /* border: 2rem solid black; */
+  }
+  footer img {
+        display: block;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        width: 100%;
+        height: auto;
+        max-width: 175px;
+  }
+  footer .footer {
+    text-align: center;
+    max-width: 770px;
+    /* border: 2rem solid green; */
+  }
+  footer .footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  footer .footer ul li {
+    padding: 0 7px;
+    text-align: center;
+    line-height: 1.3;
+  }
+  footer .footer ul li a {
+    font-size: 15px;
+    color: #479da9;
+  }
+  footer .footer ul li span {
+    margin-left: 5px;
+  }
+  footer .footer .copyright p {
+    line-height: 1.4;
+    margin-top: 10px;
+    font-size: 0.7em;
+    color: #888;
+    font-size: 12px;
+  }
+  footer .footer .copyright p:nth-child(1) {
+    font-size: 14px;
+    width: 90%;
+    margin: 10px auto 0;
+  }
