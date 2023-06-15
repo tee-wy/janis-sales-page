@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,38 +8,62 @@
 
 body {
 background: rgb(255,255,255);
+border-top: .5rem solid red;
+font-family: 'Lato', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
-main {
-   margin: 0rem 8rem;
+main .nav {
+    display: flex;
+    flex-direction: row;
 }
-article{
-    margin: 0rem 15rem;
+.nav .img img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    position: fixed;
 }
 
-.nav .h1 {
+.nav .img {
+    margin-right: 10rem;
+    margin-left: 1.5rem;
+}
+.nav h3{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 3rem;
-    font-size: 2rem;
+    font-family: Lato, Gotham, "Helvetica Neue", Arial, "sans-serif";
+    margin-top: 1rem;
+    margin-left: 9.2rem;
+    font-size: 3rem;
 }
-
 .discover{
     text-align: center;
     margin-top: 1rem;
 }
 .discover h1 {
-    font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
-    font-size: 1.5rem;
-}
-.supplements {
-    background-color: rgb(251,251,251);
-    margin-top: 3rem;
+    margin: 3rem 0rem;
+font-family: 'Geologica', sans-serif;   
+ font-size: 2.6rem;
     
+}
+article{
+    margin: 0rem 19rem;
+}
+
+article p {
+    font-size: 1.5rem;
+    font-family: Lato, Gotham, "Helvetica Neue", Arial, "sans-serif";;
+}
+
+
+.supplements {
+    background-color: rgb(247,236,221);
+    /* margin-top: 3rem; */
+    margin: 3rem 13rem;
+    padding: 9px;
 }
 .supplements h1 {
     color: rgb(66,139,202);
     text-align: center;
-    padding: 2px;
+    padding: 5px;
+    /* background-color: rgb(247,236,221); */
 }
 .i {
     background-color: rgb(251,251,251);
@@ -67,4 +93,11 @@ article img {
 .making p {
     font-size: 1.5rem;
     color: rgb(95,136,83);;
+}
+.guarantee h3 {
+    text-align: center;
+     padding-top: 2rem;
+}
+.guarantee img {
+    margin-top: 3rem;
 }
