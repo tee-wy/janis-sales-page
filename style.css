@@ -87,10 +87,17 @@ article img {
     height: auto;
     max-width: 275px;
 }
-
+.expert {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
 .making {
     
-    margin: 2rem 7rem;
+    /* margin: 2rem 7rem; */
     width: 65%;
     border-radius: 5px;
     border: 3px dashed red;
@@ -249,6 +256,14 @@ footer {
 article p {
     font-size: 1rem;
     font-family: Lato, Gotham, "Helvetica Neue", Arial, "sans-serif";;
+}
+.expert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
 }
 
 .making {
