@@ -146,9 +146,14 @@ article img {
 .guarantee img {
     margin-top: 3rem;
 }
-
-
-
+.btn {
+    border-color: rgb(236,104,51) !important;
+    color: orange !important;
+}
+.btn:hover{
+    background: rgb(236,104,51) !important;
+    color: white !important;
+}
 
 footer {
     background-color: black;
@@ -306,6 +311,22 @@ article p {
     font-size: 1rem;
     color: rgb(10,59,108);
 }
+
+
+.btnn{
+    /* border: 2px solid black; */
+    background-color: white;
+    /* color: black; */
+    font-size: 20px;
+    cursor: pointer;
+    /* margin-left: 2rem;
+    margin-top: 1.7rem; */
+    height: 70px;
+    width: 80%;
+}
+
+
+
 footer {
     margin: 1rem 1rem;
 }
